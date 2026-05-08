@@ -1,5 +1,10 @@
 # GembaDeck Release Notes
 
+## v1.5.0
+- Full-screen body editor (F11) with adjustable font size for comfortable long-form editing
+- Single-instance guard — launching GembaDeck when it's already running activates the existing window instead of opening a duplicate
+- Console window now visible during `{#run}` command execution so you can see output in real time
+
 ## v1.4.0
 - Run external tools inline via `{#run "command"#}` template tags — output is captured and inserted into the expanded text
 - Console window shown while tool runs so you can see the process executing
